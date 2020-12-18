@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "flex-start",
+        "paddingBottom": 35,
+        "paddingLeft": 35,
+        "paddingRight": 35,
+        "paddingTop": 35,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "marginBottom": 40,
+        },
+      ]
+    }
+  >
+    Olympic medal List
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "space-around",
+          "marginBottom": 20,
+        },
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      maxLength={25}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Country"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "marginBottom": 8,
+            "marginLeft": 8,
+            "marginRight": 8,
+            "marginTop": 8,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      maxLength={3}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Gold"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "marginBottom": 8,
+            "marginLeft": 8,
+            "marginRight": 8,
+            "marginTop": 8,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      maxLength={3}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Silver"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "marginBottom": 8,
+            "marginLeft": 8,
+            "marginRight": 8,
+            "marginTop": 8,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      maxLength={3}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Bronze"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "marginBottom": 8,
+            "marginLeft": 8,
+            "marginRight": 8,
+            "marginTop": 8,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "blue",
+          "borderRadius": 5,
+          "elevation": 1,
+          "flexDirection": "row",
+          "height": 39,
+          "justifyContent": "center",
+          "maxHeight": 39,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginBottom": 8,
+              "marginLeft": 8,
+              "marginRight": 8,
+              "marginTop": 8,
+            },
+          ]
+        }
+      >
+        Add
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 6,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      ListHeaderComponent={
+        <Styled(View)>
+          <Styled(Text)>
+            Country
+          </Styled(Text)>
+          <Styled(Text)>
+            Gold
+          </Styled(Text)>
+          <Styled(Text)>
+            Silver
+          </Styled(Text)>
+          <Styled(Text)>
+            Bronze
+          </Styled(Text)>
+        </Styled(View)>
+      }
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "grey",
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "width": 330,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 3,
+                    "flexShrink": 1,
+                    "fontWeight": "bold",
+                    "justifyContent": "center",
+                    "marginBottom": 8,
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Country
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "fontWeight": "bold",
+                    "justifyContent": "center",
+                    "marginBottom": 8,
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Gold
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "fontWeight": "bold",
+                    "justifyContent": "center",
+                    "marginBottom": 8,
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Silver
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "fontWeight": "bold",
+                    "justifyContent": "center",
+                    "marginBottom": 8,
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                  },
+                ]
+              }
+            >
+              Bronze
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

@@ -1,0 +1,12 @@
+{
+  "name": "olympic-medals-app",
+  "displayName": "olympic-medals-app",
+  "expo": {
+    "name": "olympic-medals-app",
+    "slug": "olympic-medals-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
